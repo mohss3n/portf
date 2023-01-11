@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/9cf309c413.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+        *{
+           text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: '';
+            box-sizing: border-box;
+            font-family: 'Kanit', sans-serif;
+
+        }
+
+        body{
+            background: #080708;
+            color: #fff;
+        }
+        /* prb*/
+        header{
+            width: auto;
+            height: 100vh;
+            background-image: url("");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .container{
+            padding: 10px 10%;
+            margin-top: 1%;
+             position: relative;
+  
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo{
+            width: 170px;
+        }
+
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+             margin: 10px 20px;
+        }     
+        
+        nav ul li a {
+            color: rgb(228, 96, 96);
+            list-style: none;
+            text-decoration: none;
+            margin: 10px 20px;
+        }
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+
+}
+a:hover{
+    border-bottom: #e900e9 solid 2px;
+    transition: 0.5s;    
+    color: #ff004f;
+
+}
+ 
+.header-text{
+width: 500px;
+height: 900px;
+    margin-top: 5%;
+    font-size: 30px;
+    position: relative;
+      
+
+}
+
+.header-text h1{
+    font-size: 55px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+img {
+    width:100%;
+}
+.img1{
+width: 800px;
+height: 300px;
+margin-left: 95% ;
+left: 2rem;
+top: 0.1rem;
+margin-bottom: 20%;
+position: absolute;
+
+   }
+
+.about {
+    margin-top: 0.1rem;
+    margin-left: 3rem;
+
+ }
+ .about-text{
+margin-right: 20%; 
+}
+
+
+.about-img1  {
+ width: 100%;
+height: 500px;
+ float: left; 
+ margin-left: 10rem;
+}
+span{   
+     color: #ff004f;
+}
+.container2{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+     display: flex;
+    justify-content: center;
+    top: 45rem;
+}
+
+.img2{
+    width: 500px;
+    height: 400px;
+    float: left;
+    clear: both;
+ 
+}
+
+.about-text h1{
+    width: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    margin-left: 20%;    
+}
+
+.titles{
+display: inline-flex;
+  
+}
+
+.titles h4{
+    margin: 10px 3rem 0px;
+}
+
+.titles h4:hover{
+    border-bottom: #e900e9 solid 2px;
+    color: #ff004f;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.about-content{
+    margin-top: 2rem;
+}
+
+
+
+.about-content h2 {
+margin-top: 1rem;
+}
+#s1,#s2,#s3,#s4{
+    color: #ff004f;
+    margin-top: 1rem;
+    
+
+}
+
+.services {
+    font-size: 25px;
+    height: 400px;
+    width: 100%;
+  display: flex;
+ position: relative;
+ margin-left: 7.7%;
+ margin-top: 0.5%;
+  }
+
+.service{
+    position: absolute;
+   top: 68rem;
+    padding: 10rem;
+}
+.services p{
+    font-size: 20px;
+}
+.services img{
+    width: 150px;
+}
+.services input{
+background-color: #ff004f;
+height: 50px;
+width: 80px;
+border-radius: 25%;
+position: absolute;
+ 
+}
+
+
+.w1,.w2,.w4{
+    width: 300px;
+    background-color: #262626;
+    text-align: center;
+    margin: 2%;
+    height: 95%;
+    transition: background 0.5s, transform 0.5s;
+    border-radius: 6%;
+    cursor: pointer;
+
+}
+
+.w1:hover{
+    background-color: #ff004f;
+
+}
+.w2:hover{
+    background-color: #ff004f;
+}
+.w4:hover{
+    background-color: #ff004f;
+}
+
+.projects{
+     display: inline-block;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 1.25rem;
+  }
+.projects h3{
+font-size: 16.5px;
+font-weight: bolder;
+}
+ 
+.work{
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2%;
+ }
+
+.work{
+    position: relative;
+    width: 300px;
+}
+.layer{
+    width: 100%;
+    padding: 0 40px;
+    height: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+    transition: height  0.5s;
+    transform: scale(1.1);
+
+ 
+}
+.layer p{
+text-align: center;
+margin-top: 50px;
+}
+.work img{
+width: 100%;
+height: 400px;
+display: block;
+border-radius: 10px;
+transition:  transform 0.5s;
+}
+
+.work:hover img{
+transform: scale(1.1);
+}
+
+.work:hover .layer{
+height: 100%;
+}
+
+.layer:hover{
+    opacity: 1;
+}
+.layer:hover{
+height: 100%;
+}
+.contact{
+     height: 850px;
+    margin-top: 10%; 
+    position: relative;
+ float: left;    
+}
+.contact h3 {
+display: flex;
+flex-direction: column;
+
+}
+.contact .btn{
+    width: 100px;
+    margin-top: 2%;
+}
+.inputs  {
+    width: 100%;
+    border: 0;
+    outline: none;
+ color: #fff;
+border-radius: 6px;
+display: flex;
+flex-direction: column;
+top: 1%;
+left: 38rem;
+position: absolute;
+
+}
+ .inp {
+    background: #262626;
+    color: #fff;
+border-radius: 6px;
+height: 40px;
+width: 500px;
+}
+
+textarea{
+    background: #262626;
+color: #fff;
+border-radius: 6px;
+    width: 500px;
+    height: 200px;
+}
+.socialicons img{
+    border-radius: 8%;
+    width: 60px;
+}
+.socialicons img:hover{
+    transform: scale(1.5);
+
+    background: #ff004f;
+}
+.btn1,.btn2{
+    width: 100px;
+    height: 40px;
+    background: #ff004f;
+    border-radius: 8%;
+    display: inline-block;
+}
+/* 
+@media only screen and (max-width:500px){
+    ul{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+
+        
+
+    }
+    .img2{
+        visibility: hidden;
+    }
+    .header-text >h1{
+        visibility: hidden;
+    }
+    .img1{
+        width: 100px;
+        height: 200px;
+        position: absolute;
+        margin-left: 9rem;
+    }
+.header-text >p{
+    background-color: aqua;
+    width: 10.5rem;
+    height: 11rem;
+}
+ span{
+    background-color: #e900e9;
+    width: 0.5px;
+    height: 0.5px;
+}
+.about-text{
+
+    margin-top: 500px;
+
+}
+
+.about{
+    position: absolute;
+    width: 20px;
+    bottom: 80rem;
+}
+h4{
+    width: 3000px;
+    background-color: rgb(10, 165, 17);
+}
+.container2 p,h1{
+    width: 100px;
+    margin-left: 150px;
+}
+} */
+    </style>
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="ogo6-removebg-preview.png" alt="" class="logo" width: 100px;>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> 
+            <div class="header-text">
+                <p>Full Stack Developper & IT Specialist</p>
+                <h1>Hi, I'm <span> Mohssen</span> Haddad  <br>from Morocco</h1>
+            <img src="img1.png" alt="" class="img1">
+        </div>
+
+            </div>
+            </div>
+
+             
+<div class="foo">
+
+            <div  class="about">
+<div id="about"  class="container2">
+         <div class="about-img1">
+            <img src="webdev.png" alt="" class="img2" width: 100px;   >
+        </div>
+
+        <div class="about-text">
+            <h1>About&nbsp<span>Me</span></h1>
+ <div class="titles">
+    <h4 id="sk">Skills</h4>
+    <h4 id="exp">Experience</h4>
+    <h4 id="ed">Education</h4>
+</div>
+<div class="about-content">
+    <h4 id="s1">Web Devlopment</h4>  
+    <h2 id="sk1">Web app Development</h2>
+    <h4 id="s2">IT Diagnostics</h4>
+    <h2 id="sk2">Computer/Equipment Repeirs</h2>
+    <h4 id="s3">Networking</h4>
+    <h2 id="sk3">Install/Repair Computer Network</h2>
+</div>
+
+
+
+        </div>
+
+    </div>
+
+              </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+             <div  id="services" class="service">
+
+             <h1>My Services</h1>
+<br><br>
+             <div  class="services">
+ <div class="w1">
+    <img src="C:\Users\DJM3N\Desktop\imgo\2282188-removebg-preview (1).png" alt="" srcset="" width: 100px;    >
+    <h3>Web Devlopment</h3>
+    <br>
+        <p>Building websites and web apps with latest web technologys react and laravel,bootsrap...</p>
+        <br>
+ 
+</div>
+<div class="w2">
+    <img src="C:\Users\DJM3N\Desktop\imgo\computer_icon_129107.png" alt="" srcset="" width: 100px;    >
+    <h3>IT Diagnostics</h3>
+    <br>
+<p>install and Repair   major problems of computers and pc equipment ..</p>
+<br>
+ 
+</div>
+
+
+<div class="w4">
+    <img src="C:\Users\DJM3N\Desktop\imgo\computer-network-51-removebg-preview.png" alt="" srcset="">
+    <h3>Networking</h3>
+    <br>
+    <p>install and repair computer network and  secure network</p>   
+    <br>
+ </div>
+</div>
+
+<br><br>
+
+<div id="projects" class="projects">
+
+ <h1>My Projects</h1>
+ 
+ <br>
+ <br>
+  <div class="work">
+    <img src="k.jpg" alt="" srcset="">
+    <div class="layer">
+         <h3>Pharmacie Managment System</h3>
+        <p>Pharmacy managment software made with python tkinter</p>
+    </div>
+</div>
+<div class="work">
+    <img src="onlinestore-1.jpg" alt="" srcset="">
+    <div class="layer">
+         <h3>Online Store</h3>
+        <p>Online store created with html/css javascript and php/mysql</p>
+    </div>
+</div>
+<div class="work">
+    <img src="parking-system-software-500x500.webp" alt="" srcset="">
+    <div class="layer">
+         <h3>Parking Managment System</h3>
+        <p>Parking managment system made with python</p>
+</div>
+</div> 
+ 
+
+<div id="projects" class="contact">
+    <h1>Contact Me</h1>
+    <br>
+    <br>
+    <div id="contact" class="socialicons">
+        <img src="fb-removebg-preview.png" alt="">
+        <img src="in-removebg-preview.png" alt="">
+        <img src="wtsp-removebg-preview.png" alt="">
+        <img src="twittr-removebg-preview.png" alt="">
+            </div>
+            <br>
+    <h3>contact@mohssendev.pro</h3>
+    <br>
+
+    <h3>+212636948887</h3>
+    <br>
+
+
+  <a href="new cv.pdf" > <input class="btn1" type="button" value="Download CV"> </a>
+
+    <div   class="inputs">
+<input type="text" name="name" placeholder=" Your Name" class="inp">
+<br>
+<input type="email" name="email" placeholder=" Your Email" class="inp">
+<br>
+<textarea name="message" id="" cols="3" rows="3" placeholder=" Your Message"></textarea>
+<br>
+ <input  class="btn2" type="button" value="submit">
+
+    </div>
+</div>
+
+
+</div>
+
+</body>
+<script>
+ 
+  title0=document.getElementById("sk")
+
+  title=document.getElementById("exp")
+ title2=document.getElementById("ed")
+
+ s1=document.getElementById("s1")
+ sk1=document.getElementById("sk1")
+ s2=document.getElementById("s2")
+ sk2=document.getElementById("sk2")
+ s3=document.getElementById("s3")
+ sk3=document.getElementById("sk3")  
+
+title.addEventListener("click",pop)
+title2.addEventListener("click",pop2)
+title0.addEventListener("click",pop4)
+ 
+ 
+
+function pop4() { 
+    s1.innerHTML="<h4> Web Devlopment </h4>"
+    sk1.innerHTML="<h4> Web app Development </h4>"
+    s2.innerHTML="<h4> IT Diagnostics </h4>"
+    sk2.innerHTML="<h4> Computer/Equipment Repeirs </h4>"
+    s3.innerHTML="<h4> Networking </h4>"
+    sk3.innerHTML="<h4> Install/Repair Computer Network </h4>"
+ }
+
+function pop() { 
+    s1.innerHTML="<h4> 2021 </h4>"
+    sk1.innerHTML="<h4> 1 Year Web Freelance  </h4>"
+    s2.innerHTML="<h4> 2021 </h4>"
+    sk2.innerHTML="<h4> Network installation and Maintenance  </h4>"
+    s3.innerHTML="<h4> 2012 </h4>"
+    sk3.innerHTML="<h4> Computer Maintenance </h4>"
+ }
+  function pop2() { 
+    s1.innerHTML="<h4> 2017 </h4>"
+    sk1.innerHTML="<h4> Bachlor Degree </h4>"
+    s2.innerHTML="<h4> 2020</h4>"
+    sk2.innerHTML="<h4>  Diploma Technicien of Network and Computer Maintenance  </h4>"
+    s3.innerHTML="<h4> 2021 </h4>"
+    sk3.innerHTML="<h4> Diploma Devlopment Digital web full stack </h4>"
+ }
+
+ 
+
+</script>
+</html>
