@@ -114,7 +114,6 @@ position: absolute;
    }
 
 .about {
-    background-color: rgb(106, 233, 191);
     margin-top: 0.1rem;
     margin-left: 3rem;
 
@@ -371,7 +370,58 @@ border-radius: 6px;
     border-radius: 8%;
     display: inline-block;
 }
+/* 
+@media only screen and (max-width:500px){
+    ul{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
 
+        
+
+    }
+    .img2{
+        visibility: hidden;
+    }
+    .header-text >h1{
+        visibility: hidden;
+    }
+    .img1{
+        width: 100px;
+        height: 200px;
+        position: absolute;
+        margin-left: 9rem;
+    }
+.header-text >p{
+    background-color: aqua;
+    width: 10.5rem;
+    height: 11rem;
+}
+ span{
+    background-color: #e900e9;
+    width: 0.5px;
+    height: 0.5px;
+}
+.about-text{
+
+    margin-top: 500px;
+
+}
+
+.about{
+    position: absolute;
+    width: 20px;
+    bottom: 80rem;
+}
+h4{
+    width: 3000px;
+    background-color: rgb(10, 165, 17);
+}
+.container2 p,h1{
+    width: 100px;
+    margin-left: 150px;
+}
+} */
     </style>
 
 
@@ -383,15 +433,12 @@ border-radius: 6px;
                 <img src="ogo6-removebg-preview.png" alt="" class="logo" width: 100px;>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>
-
-
- 
+            </nav> 
             <div class="header-text">
                 <p>Full Stack Developper & IT Specialist</p>
                 <h1>Hi, I'm <span> Mohssen</span> Haddad  <br>from Morocco</h1>
@@ -404,8 +451,8 @@ border-radius: 6px;
              
 <div class="foo">
 
-            <div class="about">
-<div class="container2">
+            <div  class="about">
+<div id="about"  class="container2">
          <div class="about-img1">
             <img src="webdev.png" alt="" class="img2" width: 100px;   >
         </div>
@@ -440,11 +487,11 @@ border-radius: 6px;
         </div>
         </div>
         
-             <div class="service">
+             <div  id="services" class="service">
 
              <h1>My Services</h1>
 <br><br>
-             <div class="services">
+             <div  class="services">
  <div class="w1">
     <img src="C:\Users\DJM3N\Desktop\imgo\2282188-removebg-preview (1).png" alt="" srcset="" width: 100px;    >
     <h3>Web Devlopment</h3>
@@ -474,7 +521,7 @@ border-radius: 6px;
 
 <br><br>
 
-<div class="projects">
+<div id="projects" class="projects">
 
  <h1>My Projects</h1>
  
@@ -503,11 +550,11 @@ border-radius: 6px;
 </div> 
  
 
-<div class="contact">
+<div id="projects" class="contact">
     <h1>Contact Me</h1>
     <br>
     <br>
-    <div class="socialicons">
+    <div id="contact" class="socialicons">
         <img src="fb-removebg-preview.png" alt="">
         <img src="in-removebg-preview.png" alt="">
         <img src="wtsp-removebg-preview.png" alt="">
@@ -523,7 +570,7 @@ border-radius: 6px;
 
   <a href="new cv.pdf" > <input class="btn1" type="button" value="Download CV"> </a>
 
-    <div class="inputs">
+    <div   class="inputs">
 <input type="text" name="name" placeholder=" Your Name" class="inp">
 <br>
 <input type="email" name="email" placeholder=" Your Email" class="inp">
